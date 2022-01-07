@@ -53,7 +53,7 @@
           </mat-form-field>
           <mat-slider formControlName="rating" min="1" max="5" thumbLabel tickInterval="1"></mat-slider>
           <mat-form-field>
-            <input type="text" matInput formControlName="comment" placeholder="Your Comment" required>
+            <textarea type="text" matInput formControlName="comment" placeholder="Your Comment" required></textarea>
             <mat-error *ngIf="formErrors.comment">{{formErrors.comment}}</mat-error>
           </mat-form-field>
           <button mat-button type="submit" class="background-primary text-floral-white" [disabled]="commentForm.invalid">Submit</button>
@@ -66,6 +66,3 @@
     <mat-spinner></mat-spinner>
     <h4>Loading... Please Wait</h4>
   </div>
-  
-
-  
