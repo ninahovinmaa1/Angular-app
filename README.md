@@ -1,3 +1,9 @@
+## To run backend, navigate to json-server folder and run:
+`json-server --watch db.json -d 2000`
+This will set up a static light weight backend server that listens to changes in db.json and simulates a 2 second delay in responses ( -d 2000).  
+
+## To run frontend, navigate to Angular-app folder and run ng serve. Navigate to http://localhost:4200 to view the app. 
+
 # ConFusion
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
